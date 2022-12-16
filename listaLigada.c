@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include locale.h
 
 int* inicializa(){
 
@@ -12,8 +11,6 @@ int* inicializa(){
 
 
 int main(){
-
-    setlocale(LC_ALL,"");
 
     typedef struct el{
         int num;
